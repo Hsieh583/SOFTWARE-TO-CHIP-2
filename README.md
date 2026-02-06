@@ -7,6 +7,29 @@
 
 ---
 
+## 📚 完整學習材料
+
+本專案提供系統化的學習教材，專為具備高階語言背景（C#、Python、Web/API）的軟體工程師設計。
+
+### [點此查看完整學習材料 →](./docs/learning-materials/)
+
+#### 內容包含：
+
+1. **[概念對應表](./docs/learning-materials/01-concept-mapping.md)** - 硬體術語 vs 軟體開發概念
+2. **[第一階段：物理抽象與 I/O 控制](./docs/learning-materials/02-phase1-io-control.md)** - GPIO、防抖動、繼電器控制
+3. **[第二階段：資料獲取與轉換](./docs/learning-materials/03-phase2-adc-sensing.md)** - ADC、感測器、濾波技術
+4. **[第三階段：系統架構設計](./docs/learning-materials/04-phase3-fsm-architecture.md)** - Super Loop + FSM
+5. **[第四階段：穩定性工程](./docs/learning-materials/05-phase4-stability.md)** - Watchdog、中斷、安全保護
+6. **[實作任務](./docs/learning-materials/06-practical-projects.md)** - 三個由淺入深的實驗項目
+
+每個章節都包含：
+- ✅ 詳細的技術原理與程式碼範例
+- ✅ 實作練習與偽代碼
+- ✅ 「軟體工程師的硬體坑」警示
+- ✅ 驗證方式與測試標準
+
+---
+
 ## 1. 物理接口層：定義你的「硬體 API」
 
 身為軟體工程師，第一步是找出熱水瓶與外界溝通的「變數」。
